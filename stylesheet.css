@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* Header styles */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-left .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.header-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav ul li {
+    margin: 0 15px;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.header-nav ul li a:hover,
+.header-nav ul li a:focus {
+    text-decoration: underline;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right a {
+    font-size: 35px;
+    color: lightsalmon;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.header-right a:hover,
+.header-right a:focus {
+    color: #007bff;
+}
+
+.container{
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.top-wrapper{
+    padding: 250px 70px ;
+    background-image: url(images/IMG_5557.jpg);
+    background-size: cover;
+    color: azure;
+    text-align: center;
+}
+.top-wrapper h1{
+    opacity: 0.6;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+.top-wrapper p{
+    opacity: 0.6;
+    margin-top: 5px;
+}
+.gallery-wrapper{
+    height: 480px;
+    padding-bottom: 80px;
+    background-color:azure;
+}
+.heading{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: darkblue;
+}
+.heading h2{
+    font-weight: normal;
+    float: left;
+    margin-left: 45px;
+}
+.gallery{
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+.gallery-item {
+    margin-right: 5px;
+    width: 400px;  
+}
+.gallery-item a{
+    background-color:rgba(17, 80, 111, 0.349);
+    line-height:40px;
+    color:white;
+    display:inline-block;
+}
+.gallery-item a:hover{
+    background-color: rgba(175, 7, 7, 0.5);
+}
+.gallery-item img {
+    width: 80%;
+    height: auto;
+}
+.message-wrapper{
+    background-color: lavender;
+}
+.message{
+    line-height: 30px;
+}
+
+.contact-wrapper {
+    background-color: #e9e9e9;
+}
+
+.contact-wrapper form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-wrapper .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-wrapper .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-wrapper .form-group input,
+.contact-wrapper .form-group textarea {
+    width: 80%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.contact-wrapper .form-group button {
+    padding: 10px 15px;
+    background-color: #132c29;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px 0;
+    color: firebrick;
+    margin-top: 20px;
+}
+.contact a{
+    color:coral;
+    display: inline-block;
+}
+/* for Contact us site*/
+.header {
+    background-color:rgba(148, 93, 93, 0.5);
+    color: #fff;
+    height: 90px;
+}
+.header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+}
+.contents{
+    height: 10px;
+    margin-top: 20px;
+}
+.contents-list{
+    border-bottom: 2px solid cadetblue;
+}
+.section-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.instagram{
+    font-size: 22px;
+    color: coral;
+}
+.section-title span{
+    color: darkseagreen;
+}
+.contents-list span{
+    color: crimson;
+}
+/* for about us*/
+.intro-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.about-wrapper p{
+    line-height: 25px;
+}
