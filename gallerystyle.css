@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    font-family:fantasy;
+}
+.container{
+    width:1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-logo{
+    font-size: 40px;
+    opacity: 0.7;
+}
+.top-wrapper1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.gallery-wrapper1{
+    height: auto;
+    width: 100%;
+}
+.heading{
+    font-size: 17px;
+    font-weight: normal;
+    color: brown;
+}
+.gallerys{
+    height: 250px;
+}
+h2{
+    color: chocolate;
+}
+
+.gallerys img{
+    width: 200px;
+    float: right;
+    border-radius: 3px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.gallerys img:hover{
+    transform: scale(1.05);
+}
+.gallerys, p{
+    line-height: 25px;
+    font-size: 20px;
+    font-family: Lucida Sans Unicode;
+}
+.gallery1 {
+    height: 600px;
+}
+.gallery1 img{
+    display: flex;
+    float: left;
+    width: 220px;
+    margin-left: 50px;
+    border-radius: 5px;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+
+}
+.gallery1 img:hover{
+    transform: scale(1.05);
+}
+.gallery1 p{
+    line-height: 25px;
+    font-size: 20px;
+}
+.post-wrapper{
+    margin-top: 15px;
+    height: 700px;
+}
+.video-post{
+    position: relative;
+    height: 500px;
+    margin: 0;
+}
+.caption{
+    font-size: 25px;
+    color: cornflowerblue;
+}
+
+video {
+    position: absolute;
+    width: 22%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+video:hover{
+    transform: scale(1.05);
+}
+
+.contact-wrapper{
+    height: 200px;
+    margin-top: 30px;
+}
+.opening-time, .closing-time, .fee {
+    margin-bottom: 15px;
+}
+h3{
+    color:mediumaquamarine
+}
+
+h4 {
+    color: #444;
+    border-top: 2px solid #ddd;
+    padding-top: 10px;
+}
+
+.contact-section a {
+    color:tomato;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between icon and text */
+}
+.contact-section i:hover{
+    color: #870843d4;
+}
+.contact-section i {
+    font-size: 40px; /* Adjust the size of the icons */
+    margin-right: 7px; /* Adjust spacing between icon and text */
+}
+footer {
+    background-color: #e9e9e9;
+    text-align:end;
+    padding: 2px;
+    color: firebrick;
+    margin-top: 500px;
+    height: 50px;
+}
+.gallery-wrapper2 {
+    padding: 20px;
+    background-color: #fafafa;
+}
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.gallery2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.gallery2 h3 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.gallery2 img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.gallery2 img:hover {
+    transform: scale(1.05);
+}
