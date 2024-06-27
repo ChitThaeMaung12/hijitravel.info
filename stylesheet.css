@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     font-family: sans-serif;
@@ -8,73 +11,69 @@ li{
 a{
     text-decoration: none;
 }
-/* Header styles */
+.clear{
+    clear: left;
+}
+/* Reset default list styles */
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #f0f0f0; 
 }
 
-.header-left .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    text-decoration: none;
-}
-
-.header-nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.header-nav ul li {
-    margin: 0 15px;
-}
-
-.header-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
-    padding: 5px 10px;
-}
-
-.header-nav ul li a:hover,
-.header-nav ul li a:focus {
-    text-decoration: underline;
+.header-left {
+    flex: 1; /* Take up available space */
+    font-size: 18px;
 }
 
 .header-right {
     display: flex;
     align-items: center;
 }
+.header-right i{
+    color: #007bff;
+    font-size: 24px;
+}
+.header-right i:hover{
+    color: coral;
+}
 
+.nav-list li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Adjust spacing between items */
+}
+
+.social-icon {
+    margin-left: 20px; /* Adjust spacing between navigation links and social icon */
+}
+.header-right  a:hover,
+.header-right  a:focus {
+    text-decoration: underline;
+}
 .header-right a {
-    font-size: 35px;
-    color: lightsalmon;
+    font-size: 18px;
+    color:#333;
     text-decoration: none;
     margin-left: 15px;
 }
-
-.header-right a:hover,
-.header-right a:focus {
-    color: #007bff;
-}
-
 .container{
     width: 100%;
     padding: 0 10px;
     margin: 0 auto;
 }
 .top-wrapper{
-    padding: 250px 70px ;
+    padding: 220px 70px ;
     background-image: url(images/IMG_5557.jpg);
     background-size: cover;
-    color: azure;
+    color:ghostwhite;
     text-align: center;
 }
 .top-wrapper h1{
@@ -87,14 +86,14 @@ a{
     margin-top: 5px;
 }
 .gallery-wrapper{
-    height: 480px;
+    height: 500px;
     padding-bottom: 80px;
     background-color:azure;
 }
 .heading{
     padding-top: 60px;
     padding-bottom: 30px;
-    color: darkblue;
+    color:darkred;
 }
 .heading h2{
     font-weight: normal;
@@ -110,7 +109,7 @@ a{
 }
 .gallery-item {
     margin-right: 5px;
-    width: 400px;  
+    width: auto;  
 }
 .gallery-item a{
     background-color:rgba(17, 80, 111, 0.349);
@@ -120,13 +119,21 @@ a{
 }
 .gallery-item a:hover{
     background-color: rgba(175, 7, 7, 0.5);
+
 }
 .gallery-item img {
     width: 80%;
     height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.gallery-item img:hover{
+    transform: scale(1.05);
 }
 .message-wrapper{
-    background-color: lavender;
+    background-color: rgb(235, 235, 249);
+    height:280px;
 }
 .message{
     line-height: 30px;
@@ -166,11 +173,11 @@ a{
 }
 
 footer {
-    background-color: aliceblue;
-    text-align: center;
-    padding: 20px 0;
+    background-color: #e9e9e9;
+    text-align:end;
+    padding: 2px;
     color: firebrick;
-    margin-top: 20px;
+    margin-top: px;
 }
 .contact a{
     color:coral;
@@ -180,12 +187,12 @@ footer {
 .header {
     background-color:rgba(148, 93, 93, 0.5);
     color: #fff;
-    height: 90px;
+    height: 60px;
 }
 .header-logo {
     float: left;
-    font-size: 36px;
-    padding: 20px 40px;
+    font-size: 30px;
+    padding:10px;
 }
 .contents{
     height: 10px;
@@ -209,6 +216,21 @@ footer {
 .contents-list span{
     color: crimson;
 }
+.map p{
+    font-size: 18px;
+    color:darkred
+}
+.map a{
+    margin-left: 1;
+    font-size: 35px;
+    color: darkorange;
+    
+    margin-top: 50px;
+    
+}
+.map a:hover{
+    color: #007bff;
+}
 /* for about us*/
 .intro-section{
     display: flex;
@@ -217,7 +239,9 @@ footer {
     padding-bottom: 20px;
     margin-bottom: 30px;
 }
-
+.about-wrapper h3{
+    color:brown;
+}
 .about-wrapper p{
     line-height: 25px;
 }
