@@ -93,7 +93,7 @@
         
     }
     .heading h1, caption,gallery1 h2{
-        font-size:24px;
+        font-size:20px;
     }
     .gallerys{
         height:300px;
@@ -108,7 +108,7 @@
         height:2200px;
     }
     .post-wrapper{
-        height: 400px;
+        height: 450px;
         width: 100%;
     }
     .video{
