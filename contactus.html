@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<htmL lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="responsive.css">
+        <title>Team Hiji</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-logo">Hiji Team</div>
+        </div>
+        <div class="contents">
+            <div class="section-title">Welcome Everyone<span>!</span></div>
+        </div>
+        <div class="contents-list">
+            <p>We've created this webpage to share information about Hiji's attractions, aiming to be useful for everyone.</p>
+            <p>Hiji offers a diverse range of activities suitable for all ages. From relaxing hot spring baths to scenic hiking trails, there's something here for everyone to enjoy. One of the highlights is the annual Hiji Lantern Festival, where thousands of glowing lanterns light up the town, creating a magical atmosphere.</p>
+            <p></p>The residents of Hiji are known for their warm hospitality and welcoming nature. You can experience the local community firsthand at the town's community centers and bustling markets, where you can meet locals and learn more about daily life in Hiji.</p>
+            <p><span>Do you have a new place you'd like to promote in Hiji?</span></p>    
+            <p>Please get in touch with us using the contact information below. We look forward to hearing from you!</p>
+        </div>
+        <div class="contact-wrapper" id="contact-content">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="/contact" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="contact-details">
+            <div class="container">
+                <h3>Other Ways to Reach Us</h3>
+                <p>Email: <a href="mailto:hijiteam@gmail.com">hijiteam@gmail.com</a></p>
+                <p>Address: 1-1 Jumonjibaru, Beppu Town, Oita Prefecture, Japan</p>
+                <p>Follow us on:
+                    <a href="https://www.instagram.com/hijino_ikigai?igsh=MXNycTFxMGx6aWMxdA==" target="_blank" class="instagram"><span class="fab fa-instagram">Instagram</span></a>
+                </p>
+            </div>
+        </div>
+        <div class="map">
+            <div class="container">
+            <h3>Find Us Here</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.299017748323!2d131.46576451079054!3d33.33713707332386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a789b228c831%3A0x75d0c0e0813c572c!2sRitsumeikan%20Asia%20Pacific%20University!5e0!3m2!1sen!2sjp!4v1718722450990!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </body>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Hiji Town. All Rights Reserved.</p>
+        </div>
+    </footer>
+</htmL>
