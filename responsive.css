@@ -88,12 +88,13 @@
         width:70%;
         height: 220px;
     }
-    .top-wrapper1{
-        max-width: 100%;
+    .top-wrapper1 img{
+        width: 100%;
+        height:auto;
         
     }
     .heading h1, caption,gallery1 h2{
-        font-size:20px;
+        font-size:24px;
     }
     .gallerys{
         height:300px;
@@ -108,7 +109,7 @@
         height:2200px;
     }
     .post-wrapper{
-        height: 450px;
+        height: 400px;
         width: 100%;
     }
     .video{
@@ -119,5 +120,13 @@
     .contact-wrapper{
         height:300px;
     }
+    .intro-wrapper img{
+        width:100%;
+        height:auto;
+    }
+    .about-wrapper{
+        height:auto;
+    }
+    
 
 }
