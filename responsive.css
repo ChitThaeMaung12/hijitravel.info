@@ -76,7 +76,7 @@
     .gallery {
         flex-direction: column;
         align-items: center;
-        width: 60%;
+        width: 100%;
     }
     .gallery-item {
         width: 100%;
