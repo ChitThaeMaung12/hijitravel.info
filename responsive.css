@@ -20,11 +20,12 @@
     
     .gallery {
         flex-direction: row;
-        flex-wrap: warp;
+        flex-wrap: wrap;
         width: 100%;
+
     }
     .gallery-item {
-        width: 100%;
+        width: 70%;
     }
     .message-wrapper{
         max-width:100%;
@@ -74,7 +75,7 @@
     
     .gallery {
         flex-direction: column;
-        align-items:center;
+        align-items: center;
         width: 60%;
     }
     .gallery-item {
@@ -97,7 +98,7 @@
         font-size:24px;
     }
     .gallerys{
-        height: auto;
+        height:auto;
     }
     
     .gallery1{
@@ -109,7 +110,7 @@
         height:2200px;
     }
     .post-wrapper{
-        height: 500px;
+        height: 400px;
         width: 100%;
     }
     .video{
